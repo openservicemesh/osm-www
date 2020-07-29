@@ -1,3 +1,5 @@
+![osm-website](https://user-images.githubusercontent.com/686194/88725480-03e85c00-d0e1-11ea-8e3e-92eaf971b918.png)
+
 Welcome to the source file repository for the [Open Service Mesh website](https://openservicemesh.io). The website is a simple static site, built with [Hugo](https://gohugo.io/) and hosted on [Netlify](https://app.netlify.com/sites/openservicemesh/settings/general).
 
 ---
