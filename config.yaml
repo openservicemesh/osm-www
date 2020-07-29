@@ -1,0 +1,51 @@
+baseURL: https://openservicemesh.io/
+languageCode: en-us
+title: OSM
+theme: clean-landing
+
+disableKinds:
+ -taxonomy
+ -taxonomyTerm
+
+params:
+  description: openservicemesh
+  openGraph: true
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/osm.png
+   link: https://openservicemesh.io/
+  font:
+    name: "Helvetica"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: openservicemesh
+    # Hero subtitle (optional)
+    subtitle: 
+    # Button text
+    # buttontext: Get started
+    # Where the main hero button links to
+    # buttonlink: "#"
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  # navbar:
+  # - title: Home
+  #   url: /#
+  # - title: About
+  #   url: /#about
+  # - title: Docs
+  #   url: https://github.com/openservicemesh/osm/docs
+  # - title: Community
+  #   url: /#community
+  footer:
+    logo: osm.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    # - link: https://twitter.com/openservicemesh
+    #   icon: twitter
+    #   name: Twitter
+    # - link: https://gitter.im/openservicemesh
+    #   icon: users
+    #   name: Gitter
+    - link: https://github.com/openservicemesh/osm
+      icon: github
+      name: Github
