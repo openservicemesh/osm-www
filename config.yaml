@@ -27,15 +27,15 @@ params:
     # Where the main hero button links to
     # buttonlink: "#"
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  # navbar:
-  # - title: Home
-  #   url: /#
-  # - title: About
-  #   url: /#about
-  # - title: Docs
-  #   url: https://github.com/openservicemesh/osm/docs
-  # - title: Community
-  #   url: /#community
+  navbar:
+  - title: Github
+    url: https://github.com/openservicemesh/osm
+  # - title: Blog
+  #   url:
+  - title: Slack
+    url: /
+  - title: Twitter
+    url: /
   footer:
     logo: osm.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
