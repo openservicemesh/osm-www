@@ -6341,26 +6341,6 @@ Hero styles
   margin-bottom: 2.5rem; }
 
 /* ==========================================================================
-Fresh Footer
-========================================================================== */
-.footer {
-  padding: 2rem 1.5rem 1rem;
-  background: white; }
-  .footer .footer-logo img {
-    width: 80px; }
-  .footer a {
-    display: inline-block;
-    margin-right: 2.5rem; }
-    .footer a .icon {
-      opacity: 0.25;
-      padding-right: 0.25rem; }
-  .footer p {
-    font-size: 0.925rem;
-    text-align: right;
-    color: #4F4D68;
-    margin: 0.9rem 0 0; }
-
-/* ==========================================================================
 Classes to change the feel of bulma buttons
 ========================================================================== */
 .button {
@@ -7127,11 +7107,32 @@ pre {
   top: 0;
   background: rgba(255, 255, 255, 0.94); }
 
+.intro {
+  padding: 6rem 0 12rem; }
+  .intro h1 {
+    max-width: 25rem;
+    margin-top: 7.5vw;
+    margin-bottom: 8vw; }
+  .intro h2 {
+    max-width: 25rem;
+    float: right;
+    margin-top: 1.5vw; }
+  .intro p {
+    font-size: 1.5rem; }
+
+body p,
+body ul,
+body li {
+  font-size: 1.25rem;
+  line-height: 1.636; }
+
 footer {
   width: 100%;
   max-width: 100%;
-  border-top: 1px solid rgba(100, 100, 100, 0.5);
-  padding: 1.5rem 0 0; }
+  border-top: 1px solid rgba(100, 100, 100, 0.125);
+  padding: 2.5rem 0 5rem; }
+  footer img {
+    max-width: 12.5vw; }
   footer .navbar-menu {
     direction: ltr; }
 

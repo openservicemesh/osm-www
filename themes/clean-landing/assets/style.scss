@@ -7,11 +7,50 @@
   background: rgba(255,255,255,0.94);
 }
 
+.intro {
+  padding: 6rem 0 12rem;
+
+  h1 {
+    max-width: 25rem;
+    margin-top: 7.5vw;
+    margin-bottom: 8vw;
+  }
+
+  h2 {
+    max-width: 25rem;
+    float: right;
+    margin-top: 1.5vw;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+body {
+  p,
+  ul,
+  li {
+    font-size: 1.25rem;
+    line-height: 1.636;
+  }
+}
+
+.principles {
+  ul {
+
+  }
+}
+
 footer {
   width: 100%;
   max-width: 100%;
-  border-top: 1px solid rgba(100,100,100,0.5);
-  padding: 1.5rem 0 0;
+  border-top: 1px solid rgba(100,100,100,0.125);
+  padding: 2.5rem 0 5rem;
+
+  img {
+    max-width: 12.5vw;
+  };
 
   .navbar-menu {
     direction: ltr;

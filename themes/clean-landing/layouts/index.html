@@ -29,8 +29,8 @@
   </div>
 </nav>
 
-<div class="container">
-  <div class="columns is-centered is-vcentered">
+<div class="container intro">
+  <div class="columns is-centered">
     <div class="column is-half has-text-left">
       <h1><a href="/" title="OSM"><img src="images/openservicemesh.svg" alt="Open Service Mesh logo" /></a></h1>
     </div>
@@ -39,34 +39,29 @@
       </a></h2>
     </div>
   </div>
-  <div class="columns is-centered is-vcentered">
-    <div class="column has-text-center">
-      <p class="lead">Open Service Mesh (OSM) is a lightweight and extensible cloud-native service mesh that takes a simple approach for users to uniformly manage, secure, and get out-of-the box observability features for highly dynamic microservices environments.</p>
+  <div class="columns">
+    <div class="column is-offset-one-fifth is-three-fifths">
+      <p>Open Service Mesh (OSM) is a lightweight and extensible cloud-native service mesh that takes a simple approach for users to uniformly manage, secure, and get out-of-the box observability features for highly dynamic microservices environments.</p>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column is-offset-two-fifths is-three-fifths">
       <p>By leveraging the collaboration of the <a href="https://www.cncf.io/">CNCF</a> <a href="https://www.envoyproxy.io/">Envoy</a> network proxy project, OSM provides a simple interface for making configuration changes to your environment.</p>
     </div>
   </div>
+</div>
 
+<div class="container principles"></div>
   <div class="columns is-centered is-vcentered">
-    <div class="column has-text-center">
-      <h3>OSM is guided by 4 <strong>principles</strong>:</h3>
+    <div class="column is-half has-text-left">
+      <h2 class="has-text-centered">OSM is guided by 4 <strong>principles</strong>:</h2>
 
-      <div class="columns is-centered is-vcentered">
-        <div class="column has-text-center">
-          <p>Standardized to the CNCF <a href="https://smi-spec.io/" title="SMI Spec">Service Mesh Interface (SMI)</a> specification</p>
-        </div>
-
-        <div class="column has-text-center">
-          <p>Effortless to install, maintain, and operate</p>
-        </div>
-
-        <div class="column has-text-center">
-          <p>Painless to troubleshoot</p>
-        </div>
-
-        <div class="column has-text-center">
-          <p>Simple to understand and contribute to</p>
-        </div>
-      </div>
+      <ul class="principles0list">
+        <li><strong>Compatible</strong> with CNCF Service Mesh Interface (<a href="https://smi-spec.io/" title="SMI Spec">SMI</a>)​</li>
+        <li><strong>Effortless</strong> to install, maintain, and operate</li>
+        <li><strong>Simple</strong> to understand and contribute to​</li>
+        <li><strong>Flexible</strong> enough to handle both simple and complex scenarios through SMI and Envoy XDS APIs</li>
+      </ul>
 
       <div class="text-align-center is-centered has-text-centered">
         <a href="https://github.com/openservicemesh/osm/" class="button is-primary is-rounded is-large is-centered">Learn More</a>
@@ -76,14 +71,13 @@
   </div>
 </div>
 
-<footer>
+<footer class="footer">
   <div class="container">
-    <div class="columns is-centered is-vcentered">
-      <div class="column is-half has-text-left">
-        <img src="images/wordmark.svg" alt="Open Service Mesh" />
-        
-        <p>Brought to you by Microsoft Azure</p>
-        <p>OSM has adopted the <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft Open Source Code of Conduct</a>.</p>
+    <div class="columns">
+      <div class="column is-half">
+        <p><img src="images/wordmark.svg" alt="Open Service Mesh" /></p>
+        <p>Brought to you by Microsoft Azure. <br>
+          OSM has adopted the <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft Open Source Code of Conduct</a>.</p>
       </div>
       
       <div class="column is-half has-text-right">

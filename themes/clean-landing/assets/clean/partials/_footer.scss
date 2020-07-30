@@ -24,8 +24,13 @@ Fresh Footer
 
   p {
     font-size: 0.925rem;
-    text-align: right;
+    // text-align: right;
     color: $charcoal;
     margin: 0.9rem 0 0;
+  }
+
+  nav {
+    text-align: right;
+    float: right;
   }
 }
