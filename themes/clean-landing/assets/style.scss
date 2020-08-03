@@ -20,6 +20,16 @@ $background: #58F4CC;
   position: sticky;
   top: 0;
   background: rgba(255,255,255,0.94);
+
+  a.navbar-item {
+    color: $blue;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom: 2px solid $green;
+    }
+  }
 }
 
 .intro-smaller {
@@ -34,7 +44,41 @@ $background: #58F4CC;
 
 .intro {
   max-width: 100vw;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
   width: 100vw;
+  background-image: url('../images/intro-shapes-bottom.svg'), url('../images/angled-backdrop.svg'), url('../images/intro-shapes.svg');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left 133%, 0 -50%, center -5%;
+  background-size: auto auto, 120% auto, 100% auto;
+
+  p {
+    a {
+      border-bottom: 2px solid $greenl;
+      color: darken($blue, 7.5%);
+    }
+
+    font-size: 1.333rem;
+    line-height: 1.85;
+    margin: 1.5rem 0 ;
+    color: $blue;
+    padding-right: 5vw;
+
+    &.lead {
+      font-size: 1.75rem;
+      padding-right: 5%;
+      color: darken($blue, 7.5%);
+      margin: 2.5rem 0;
+    }
+    
+    &.offset {
+      margin-left: 5vw;
+    }
+
+    strong {
+      color: $blue;
+    }
+  }
 
   .columns {
     max-width: 1152px;
@@ -45,19 +89,16 @@ $background: #58F4CC;
 
   h1 {
     max-width: 20vw;
-    margin-top: 10vw;
-    margin-bottom: 8vw;
+    margin-top: 5vw;
+    margin-bottom: 15vw;
   }
 
   h2 {
-    max-width: 22.5rem;
+    max-width: 25vw;
     float: right;
-    margin-top: 3.5vw;
+    margin-top: -2.5vw;
   }
 
-  p {
-    font-size: 1.5rem;
-  }
 }
 
 body {
@@ -70,29 +111,42 @@ body {
 }
 
 .principles {
-  padding-top: 2.5rem;
-  padding-bottom: 8.5rem;
+  padding-top: 8vw;
+  padding-bottom: 8.5vw;
+  background-image: url('../images/intro-shapes.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: 250% auto;
 
   h2 {
     font-size: 2rem;
-    margin: 2rem auto;
+    margin: 2vw auto;
   }
+  
   ul {
-    margin: 2rem auto 4rem;
+    margin: 5vw auto;
+    list-style: none;
+    list-style-position: outside;
 
     li {
-      font-size: 1.333rem;
-      list-style: disc;
+      font-size: 1.5vw;
       line-height: 1.825;
-      margin-bottom: 1rem;
+      margin: 0 0 1rem;
+      background-color: lighten($bluel, 8.25%);
+      padding: 1.667vw 2.5vw;
+      border-radius: 1vw;
     }
-
   }
 
   .button {
     font-size: 2rem;
     padding: 1.75rem 3rem;
     margin: 2rem 0 2rem;
+    background: $blue;
+
+    &:hover {
+      background: $bluem;
+    }
 
     .fa {
       margin: 0 1.25rem 0 0;
@@ -120,7 +174,6 @@ body {
       float: left;
       max-height: 12rem;
     }
-
   }
 
   h1 {
