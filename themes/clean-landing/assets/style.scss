@@ -7,8 +7,26 @@
   background: rgba(255,255,255,0.94);
 }
 
-.intro {
+.intro-smaller {
   padding: 6rem 0 12rem;
+  background-image: url('../images/osm-web-top.jpg'), url('../images/osm-web-tile.png');
+  background-repeat: no-repeat, repeat-x;
+  background-position:  0 0;
+  background-size: auto 320px, auto 320px;
+  max-width: 100vw;
+  width: 100vw;
+}
+
+.intro {
+  max-width: 100vw;
+  width: 100vw;
+
+  .columns {
+    max-width: 1152px;
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   h1 {
     max-width: 25rem;
@@ -64,6 +82,34 @@ body {
     .fa {
       margin: 0 1.25rem 0 0;
     }
+  }
+}
+
+.intro-smaller {
+  padding: 6rem 0 12rem;
+  background-image: url('../images/osm-web-top.jpg'), url('../images/osm-web-tile.png');
+  background-repeat: no-repeat, repeat-x;
+  background-position:  0 0;
+  background-size: auto 320px, auto 320px;
+  max-width: 100vw;
+  width: 100vw;
+
+  h2 {
+    float: left;
+    margin: 0 0 0 -1rem;
+    
+    img {
+      max-width: 20vw !important;
+      float: left;
+    }
+
+  }
+
+  h1 {
+    float: left;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 1.725vw 0;
   }
 }
 

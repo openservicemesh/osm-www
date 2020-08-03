@@ -30,8 +30,8 @@ params:
   navbar:
   - title: Github
     url: https://github.com/openservicemesh/osm
-  # - title: Blog
-  #   url:
+  - title: Blog
+    url: /blog
   - title: Slack
     url: /
   - title: Twitter

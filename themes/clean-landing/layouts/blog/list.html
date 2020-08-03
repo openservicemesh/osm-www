@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{- $navbar         := .Site.Params.navbar }}
+
+{{ partial "navbar.html" . }}
+
+{{ partial "intro-sm.html" . }}
+
+<div class="container blog blog-wrapper">
+  <div class="columns is-centered">
+
+    <article class="post column post-view">
+      <div class="post-content">
+        <article class="content-wrapper">
+          {{ .Content }}
+  
+          {{ range (.Paginator 5).Pages }}
+          {{ $paginator := .Paginate (where .Pages "Type" "posts") 5 }}
+          <article>
+            <header>
+              <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+              <p class="date">{{ .Date.Format "Jan 02, 2006" }}</p>
+            </header>
+            
+            <p>
+              {{ .Summary }}
+              {{ if .Truncated }}
+                <a href="{{ .RelPermalink }}" class="read-more">Read More…</a>
+              {{ end }}
+            </p>
+          </article>
+          
+          {{ end }}
+          
+          <div class="pagination">
+            {{ if .Paginator.HasPrev }}
+              <a href="{{ .Paginator.Prev.URL }}" class="left arrow">&#8592; Newer posts</a>
+            {{ end }}
+            
+            <span>Page {{ .Paginator.PageNumber }}</span>
+
+            {{ if .Paginator.HasNext }}
+              <a href="{{ .Paginator.Next.URL }}" class="right arrow">Older posts &#8594;</a>
+            {{ end }}
+          </div>
+        </article>
+      </div>
+      
+      <footer class="post-footer">
+        {{ if .Params.tags }}
+        <ul class="post-tags">
+          {{ range .Params.tags }}
+          <li><a href="{{.Site.BaseURL}}/tags/{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </footer>
+    </article>
+
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
+
+{{ end }}

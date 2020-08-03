@@ -7107,8 +7107,23 @@ pre {
   top: 0;
   background: rgba(255, 255, 255, 0.94); }
 
+.intro-smaller {
+  padding: 6rem 0 12rem;
+  background-image: url("../images/osm-web-top.jpg"), url("../images/osm-web-tile.png");
+  background-repeat: no-repeat, repeat-x;
+  background-position: 0 0;
+  background-size: auto 320px, auto 320px;
+  max-width: 100vw;
+  width: 100vw; }
+
 .intro {
-  padding: 6rem 0 12rem; }
+  max-width: 100vw;
+  width: 100vw; }
+  .intro .columns {
+    max-width: 1152px;
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto; }
   .intro h1 {
     max-width: 25rem;
     margin-top: 7.5vw;
@@ -7145,6 +7160,26 @@ body li {
     margin: 2rem 0 2rem; }
     .principles .button .fa {
       margin: 0 1.25rem 0 0; }
+
+.intro-smaller {
+  padding: 6rem 0 12rem;
+  background-image: url("../images/osm-web-top.jpg"), url("../images/osm-web-tile.png");
+  background-repeat: no-repeat, repeat-x;
+  background-position: 0 0;
+  background-size: auto 320px, auto 320px;
+  max-width: 100vw;
+  width: 100vw; }
+  .intro-smaller h2 {
+    float: left;
+    margin: 0 0 0 -1rem; }
+    .intro-smaller h2 img {
+      max-width: 20vw !important;
+      float: left; }
+  .intro-smaller h1 {
+    float: left;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 1.725vw 0; }
 
 footer {
   width: 100%;
