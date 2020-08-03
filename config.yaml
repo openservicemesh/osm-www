@@ -32,16 +32,16 @@ params:
     url: https://github.com/openservicemesh/osm
   - title: Blog
     url: /blog
-  - title: Slack
-    url: /
+  # - title: Slack
+  #   url: /
   - title: Twitter
-    url: /
+    url: openservicemesh
   footer:
     logo: osm.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    # - link: https://twitter.com/openservicemesh
-    #   icon: twitter
+    - link: https://twitter.com/openservicemesh
+      icon: twitter
     #   name: Twitter
     # - link: https://gitter.im/openservicemesh
     #   icon: users
