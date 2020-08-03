@@ -7064,44 +7064,6 @@ pre {
       padding: 1rem 3rem;
       margin: -1.5rem auto 0; }
 
-#community {
-  background: #F3F7FF;
-  background-image: linear-gradient(180deg, #e6efff 0%, #F3F7FF 100%); }
-  #community .social-wrap {
-    text-align: left;
-    position: relative;
-    padding-left: 5rem; }
-    #community .social-wrap .icon {
-      padding: 0; }
-    #community .social-wrap .icon,
-    #community .social-wrap img {
-      font-size: 4rem;
-      float: left;
-      margin: 0 2rem 0 0;
-      line-height: .7;
-      position: absolute;
-      left: 1rem;
-      top: 3rem; }
-      #community .social-wrap .icon .fa-github,
-      #community .social-wrap img .fa-github {
-        color: #4F4D68; }
-    #community .social-wrap img {
-      max-width: 3.5rem;
-      top: 1.75rem;
-      left: 0rem; }
-    #community .social-wrap h4 {
-      font-size: 1.25rem;
-      font-weight: bold;
-      min-width: 15vw;
-      color: #6681c3;
-      margin: 0.5rem 0 0.25rem 0; }
-      #community .social-wrap h4 a {
-        color: #6681c3; }
-    #community .social-wrap p {
-      font-size: 0.825rem;
-      padding: 0 8% 0 0;
-      margin: 0; }
-
 /* osm brand colors
 */
 .navbar {
@@ -7201,6 +7163,12 @@ body li {
       background: #569CF5; }
     .principles .button .fa {
       margin: 0 1.25rem 0 0; }
+
+#community {
+  background: #94f8de; }
+  #community h2 {
+    font-size: 2rem;
+    margin: 2vw auto; }
 
 .intro-smaller {
   padding: 5rem 0 6rem;

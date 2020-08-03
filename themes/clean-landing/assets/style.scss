@@ -13,7 +13,7 @@ $greenl: #58F4CC;
 $orange: #FB8143;
 $orangel: F29A51;
 $bluel: #C1D6F1;
-$background: #58F4CC;
+$green-bg: #58F4CC;
 
 
 .navbar {
@@ -151,6 +151,15 @@ body {
     .fa {
       margin: 0 1.25rem 0 0;
     }
+  }
+}
+
+#community {
+  background: lighten($green-bg, 12.5%);
+
+  h2 {
+    font-size: 2rem;
+    margin: 2vw auto;
   }
 }
 
