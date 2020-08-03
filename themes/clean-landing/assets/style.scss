@@ -71,14 +71,23 @@ footer {
   width: 100%;
   max-width: 100%;
   border-top: 1px solid rgba(100,100,100,0.125);
-  padding: 2.5rem 0 5rem;
+  padding: 2.5rem 0 3.5rem;
+
+  p,
+  a {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  a {
+    color: #2F78CD;
+  }
 
   img {
     max-width: 12.5vw;
-  };
+  }
 
-  .navbar-menu {
-    direction: ltr;
-
+  nav {
+    float: right;
+    margin: 1rem 0 0;
   }
 }
