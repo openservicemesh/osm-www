@@ -33,7 +33,7 @@ params:
   - title: Blog
     url: /blog
   # - title: Slack
-  #   url: /
+  #   url: https://kubernetes.slack.com/messages
   - title: Twitter
     url: openservicemesh
   footer:
@@ -42,10 +42,10 @@ params:
     socialmedia:
     - link: https://twitter.com/openservicemesh
       icon: twitter
-    #   name: Twitter
-    # - link: https://gitter.im/openservicemesh
+      name: Twitter
+    # - link: https://kubernetes.slack.com/messages/
     #   icon: users
-    #   name: Gitter
+    #   name: Slack
     - link: https://github.com/openservicemesh/osm
       icon: github
       name: Github
