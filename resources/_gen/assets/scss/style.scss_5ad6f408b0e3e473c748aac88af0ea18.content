@@ -7102,6 +7102,8 @@ pre {
       padding: 0 8% 0 0;
       margin: 0; }
 
+/* osm brand colors
+*/
 .navbar {
   position: sticky;
   top: 0;
@@ -7162,24 +7164,115 @@ body li {
       margin: 0 1.25rem 0 0; }
 
 .intro-smaller {
-  padding: 6rem 0 12rem;
+  padding: 5rem 0 6rem;
   background-image: url("../images/osm-web-top.jpg"), url("../images/osm-web-tile.png");
   background-repeat: no-repeat, repeat-x;
   background-position: 0 0;
   background-size: auto 320px, auto 320px;
   max-width: 100vw;
-  width: 100vw; }
+  width: 100vw;
+  position: relative; }
   .intro-smaller h2 {
-    float: left;
-    margin: 0 0 0 -1rem; }
+    position: absolute;
+    left: 5vw;
+    bottom: -2vw; }
     .intro-smaller h2 img {
-      max-width: 20vw !important;
-      float: left; }
+      float: left;
+      max-height: 12rem; }
   .intro-smaller h1 {
-    float: left;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     font-weight: bold;
-    margin: 1.725vw 0; }
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    left: 22vw;
+    bottom: -5.5vw;
+    z-index: 1750; }
+    .intro-smaller h1 a {
+      color: #67CEB4; }
+
+.blog-wrapper .columns {
+  padding-bottom: 8.5rem; }
+  .blog-wrapper .columns article.content-wrapper article {
+    padding: 3.5rem 0 3.5rem;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .blog-wrapper .columns .post-view {
+    min-width: 75vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2rem 5vw; }
+    .blog-wrapper .columns .post-view .date {
+      color: #999;
+      font-size: 1.125vw;
+      font-family: monospace; }
+    .blog-wrapper .columns .post-view p, .blog-wrapper .columns .post-view ul {
+      width: 100%;
+      max-width: 65vw;
+      font-size: 1.35vw;
+      margin: 2.25vw 0; }
+    .blog-wrapper .columns .post-view p {
+      padding-right: 7.5%; }
+    .blog-wrapper .columns .post-view a {
+      border-bottom-color: #70f6d3; }
+      .blog-wrapper .columns .post-view a:hover {
+        border-bottom-color: #1128A9; }
+      .blog-wrapper .columns .post-view a.read-more {
+        background-color: #d0fcf1;
+        padding: 0.5rem 1rem; }
+  .blog-wrapper .columns h1 {
+    color: #1128A9;
+    font-size: 3vw;
+    line-height: 1.4;
+    margin-bottom: 1.5vw;
+    max-width: 65vw;
+    padding-right: 12.5%; }
+    .blog-wrapper .columns h1 a {
+      color: #1128A9;
+      padding: 0.5vw 0;
+      border-bottom: 3px solid #94f8de; }
+
+.blog-wrapper.blog-single .columns {
+  padding-top: 5rem; }
+  .blog-wrapper.blog-single .columns h1 {
+    font-size: 3rem;
+    padding-right: 15%; }
+
+.blog-wrapper.blog-single article.post .post-content {
+  padding-bottom: 1rem; }
+
+.blog-wrapper.blog-single img {
+  margin: 1.5rem 0 4.5rem;
+  max-width: 100%; }
+
+.blog-wrapper.blog-single code {
+  font-size: 1em;
+  border: none;
+  font-weight: normal; }
+
+.blog-wrapper.blog-single p.author {
+  font-weight: bold;
+  padding-top: 2rem;
+  font-size: 1.5vw; }
+  .blog-wrapper.blog-single p.author a {
+    color: #1128A9; }
+
+.pagination {
+  background: #7cf6d7;
+  margin-top: 3.5rem;
+  display: inline-block;
+  padding: 0.5vw 1.5vw; }
+  .pagination span {
+    color: #67CEB4; }
+  .pagination a {
+    color: #67CEB4; }
+  .pagination span, .pagination a {
+    padding: 1rem;
+    margin: 0 0.5vw;
+    font-size: 1.25rem;
+    font-weight: bold;
+    float: left;
+    line-height: 2;
+    border: none;
+    outline: none; }
 
 footer {
   width: 100%;
