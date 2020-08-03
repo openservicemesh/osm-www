@@ -7171,7 +7171,7 @@ body li {
     margin: 2vw auto; }
 
 .intro-smaller {
-  padding: 5rem 0 6rem;
+  padding: 8rem 0 6rem;
   background-image: url("../images/osm-web-top.jpg"), url("../images/osm-web-tile.png");
   background-repeat: no-repeat, repeat-x;
   background-position: 0 0;
@@ -7181,19 +7181,21 @@ body li {
   position: relative; }
   .intro-smaller h2 {
     position: absolute;
-    left: 5vw;
-    bottom: -2vw; }
+    left: 50vw;
+    margin-left: -35vw;
+    top: 5.5vw; }
     .intro-smaller h2 img {
       float: left;
-      max-height: 12rem; }
+      max-height: 12vw; }
   .intro-smaller h1 {
-    font-size: 3.5vw;
+    font-size: 2.25vw;
     font-weight: bold;
     position: absolute;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    left: 22vw;
-    bottom: -5.5vw;
+    left: 50vw;
+    margin-left: -22.5vw;
+    top: 2.75vw;
     z-index: 1750; }
     .intro-smaller h1 a {
       color: #67CEB4; }
@@ -7201,11 +7203,9 @@ body li {
 .blog-wrapper .columns {
   padding-bottom: 8.5rem; }
   .blog-wrapper .columns article.content-wrapper article {
-    padding: 3.5rem 0 3.5rem;
-    background-color: rgba(255, 255, 255, 0.5); }
+    padding: 3.5rem 0 3.5rem; }
   .blog-wrapper .columns .post-view {
     min-width: 75vw;
-    background-color: rgba(255, 255, 255, 0.5);
     padding: 2rem 5vw; }
     .blog-wrapper .columns .post-view .date {
       color: #999;
