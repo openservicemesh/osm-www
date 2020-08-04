@@ -15,7 +15,7 @@ params:
    image: logos/osm.png
    link: https://openservicemesh.io/
   font:
-    name: "Helvetica"
+    name: "Spartan"
     sizes: [400,600]
   hero:
     # Main hero title
