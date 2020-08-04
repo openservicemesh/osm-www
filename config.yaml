@@ -1,6 +1,6 @@
 baseURL: https://staging.openservicemesh.io/
 languageCode: en-us
-title: OSM
+title: Open Service Mesh
 theme: clean-landing
 
 disableKinds:
