@@ -11,7 +11,7 @@ params:
   description: Open Service Mesh (OSM) is a lightweight, extensible, Cloud Native service mesh
   openGraph: true
   twittersite: openservicemesh
-  twittertype: summary
+  twittertype: summary_large_image
   twitterimage: images/osm-twitter-card.png
   navbarlogo:
   # Logo (from static/images/logos/___)
