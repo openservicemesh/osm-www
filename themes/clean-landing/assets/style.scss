@@ -52,12 +52,19 @@ $green-bg: #58F4CC;
   padding-top: 6.5rem;
   padding-bottom: 6.5rem;
   width: 100vw;
-
-
-  background-image: url('../images/intro-shapes-bottom.svg'), url('../images/angled-backdrop.svg'), url('../images/intro-shapes.svg');
+  background-image:
+    url('../images/intro-shapes-bottom.svg'),
+    url('../images/angled-backdrop.svg'),
+    url('../images/intro-shapes.svg');
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 10% 133%, center -50%, center -5%;
-  background-size: auto auto, 100% auto, 100% auto;
+  background-position:
+    5% 115%,
+    center 75px,
+    80% 65px;
+  background-size:
+    15vw auto,
+    auto auto,
+    auto auto;
 
   p {
     a {
@@ -67,16 +74,17 @@ $green-bg: #58F4CC;
 
     font-size: 1.333rem;
     line-height: 1.85;
-    margin: 1.5rem 0 ;
+    margin: 0 0 0.67em;
     color: $blue;
-    padding-right: 5vw;
+    text-align: center;
+    padding: 0;
 
     &.lead {
-      font-size: 1.75rem;
-      padding-right: 5%;
+      font-size: 1.667rem;
       color: darken($blue, 7.5%);
-      margin: 2.5rem 0;
+      margin: 420px auto 3.5rem;
       @include spartan;
+      font-weight: bold;
     }
     
     &.offset {
@@ -95,16 +103,22 @@ $green-bg: #58F4CC;
     margin-right: auto;
   }
 
+  // homepage intro title
   h1 {
-    max-width: 20vw;
-    margin-top: 5vw;
-    margin-bottom: 15vw;
+    position: absolute;
+    top: 175px;
+    left: 50%;
+    max-width: 14.25rem;
+    margin: 0 0 0 -27.25rem;
   }
 
+  // homepage intro icon
   h2 {
-    max-width: 25vw;
-    float: right;
-    margin-top: -2.5vw;
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    max-width: 17.25rem;
+    margin: 0 0 0 13.75rem;
   }
 
 }
