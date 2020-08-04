@@ -100,21 +100,4 @@ Navbar
         overflow: hidden;
         box-shadow: 0 0 1px 3px $brand;
     }
-
-    //Fixed navbar modifier
-    &.is-fixed {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        min-height: 4rem !important;
-        background: $white;
-        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
-        a {
-            color: $blue-grey;
-            &:hover {
-                color: $primary;
-            }
-        }
-    }
 }

@@ -25,6 +25,7 @@ $green-bg: #58F4CC;
     color: $blue;
     font-weight: bold;
     border-bottom: 2px solid transparent;
+    font-size: 1.125rem;
 
     &:hover {
       border-bottom: 2px solid $green;
@@ -60,31 +61,30 @@ $green-bg: #58F4CC;
   background-position:
     5% 115%,
     center 75px,
-    80% 65px;
+    42.5% -25px;
   background-size:
     15vw auto,
     auto auto,
     auto auto;
 
   p {
-    a {
-      border-bottom: 2px solid $greenl;
-      color: darken($blue, 7.5%);
-    }
-
     font-size: 1.333rem;
     line-height: 1.85;
-    margin: 0 0 0.67em;
+    margin: 0 0 1.75em;
     color: $blue;
-    text-align: center;
     padding: 0;
 
     &.lead {
-      font-size: 1.667rem;
+      font-size: 1.75rem;
       color: darken($blue, 7.5%);
-      margin: 420px auto 3.5rem;
+      margin: 385px auto 3.5rem;
       @include spartan;
       font-weight: bold;
+    }
+
+    a {
+      border-bottom: 2px solid $greenl;
+      color: darken($blue, 7.5%);
     }
     
     &.offset {
@@ -106,19 +106,19 @@ $green-bg: #58F4CC;
   // homepage intro title
   h1 {
     position: absolute;
-    top: 175px;
+    top: 155px;
     left: 50%;
     max-width: 14.25rem;
-    margin: 0 0 0 -27.25rem;
+    margin: 0 0 0 -25.25rem;
   }
 
   // homepage intro icon
   h2 {
     position: absolute;
-    top: 85px;
+    top: 69px;
     left: 50%;
     max-width: 17.25rem;
-    margin: 0 0 0 13.75rem;
+    margin: 0 0 0 11.75rem;
   }
 
 }
@@ -142,28 +142,38 @@ body {
 
   h2 {
     font-size: 2rem;
-    margin: 2vw auto;
+    margin: 2vw auto 4rem;
+    color: $blue;
+    @include spartan;
+
+    strong {
+      color: $blue;
+    }
   }
   
   ul {
     margin: 5vw auto;
     list-style: none;
     list-style-position: outside;
+    column-count: 2;
+  }
 
-    li {
-      font-size: 1.4vw;
-      line-height: 1.825;
-      margin: 0 0 1rem;
-      background-color: lighten($bluel, 8.25%);
-      padding: 1.667vw 2.5vw;
-      border-radius: 1vw;
-    }
+  section,
+  ul > li {
+    font-size: 1.25rem;
+    line-height: 1.825;
+    min-height: 7rem;
+    margin: 0 0 1rem;
+    background-color: lighten($bluel, 8.25%);
+    padding: 1.5vw 2.25vw;
+    border-radius: 1vw;
+    vertical-align: middle;
   }
 
   .button {
     font-size: 2rem;
     padding: 1.75rem 3rem;
-    margin: 2rem 0 2rem;
+    margin: 3.5rem 0 1rem;
     background: $blue;
 
     &:hover {

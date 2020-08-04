@@ -6231,18 +6231,6 @@ Navbar
     height: 28px;
     overflow: hidden;
     box-shadow: 0 0 1px 3px #0D2192; }
-  .navbar.is-fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 4rem !important;
-    background: #fff;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12); }
-    .navbar.is-fixed a {
-      color: #444F60; }
-      .navbar.is-fixed a:hover {
-        color: #73CDF3; }
 
 /* ==========================================================================
 Section Styles
@@ -7073,7 +7061,8 @@ pre {
   .navbar a.navbar-item {
     color: #1128A9;
     font-weight: bold;
-    border-bottom: 2px solid transparent; }
+    border-bottom: 2px solid transparent;
+    font-size: 1.125rem; }
     .navbar a.navbar-item:hover {
       border-bottom: 2px solid #67CEB4; }
   .navbar span {
@@ -7096,24 +7085,23 @@ pre {
   width: 100vw;
   background-image: url("../images/intro-shapes-bottom.svg"), url("../images/angled-backdrop.svg"), url("../images/intro-shapes.svg");
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 5% 115%, center 75px, 80% 65px;
+  background-position: 5% 115%, center 75px, 42.5% -25px;
   background-size: 15vw auto, auto auto, auto auto; }
   .intro p {
     font-size: 1.333rem;
     line-height: 1.85;
-    margin: 0 0 0.67em;
+    margin: 0 0 1.75em;
     color: #1128A9;
-    text-align: center;
     padding: 0; }
+    .intro p.lead {
+      font-size: 1.75rem;
+      color: #0e2086;
+      margin: 385px auto 3.5rem;
+      font-family: 'Spartan', sans-serif;
+      font-weight: bold; }
     .intro p a {
       border-bottom: 2px solid #58F4CC;
       color: #0e2086; }
-    .intro p.lead {
-      font-size: 1.667rem;
-      color: #0e2086;
-      margin: 420px auto 3.5rem;
-      font-family: 'Spartan', sans-serif;
-      font-weight: bold; }
     .intro p.offset {
       margin-left: 5vw; }
     .intro p strong {
@@ -7125,16 +7113,16 @@ pre {
     margin-right: auto; }
   .intro h1 {
     position: absolute;
-    top: 175px;
+    top: 155px;
     left: 50%;
     max-width: 14.25rem;
-    margin: 0 0 0 -27.25rem; }
+    margin: 0 0 0 -25.25rem; }
   .intro h2 {
     position: absolute;
-    top: 85px;
+    top: 69px;
     left: 50%;
     max-width: 17.25rem;
-    margin: 0 0 0 13.75rem; }
+    margin: 0 0 0 11.75rem; }
 
 body p,
 body ul,
@@ -7151,22 +7139,30 @@ body li {
   background-size: 250% auto; }
   .principles h2 {
     font-size: 2rem;
-    margin: 2vw auto; }
+    margin: 2vw auto 4rem;
+    color: #1128A9;
+    font-family: 'Spartan', sans-serif; }
+    .principles h2 strong {
+      color: #1128A9; }
   .principles ul {
     margin: 5vw auto;
     list-style: none;
-    list-style-position: outside; }
-    .principles ul li {
-      font-size: 1.4vw;
-      line-height: 1.825;
-      margin: 0 0 1rem;
-      background-color: #e3edf9;
-      padding: 1.667vw 2.5vw;
-      border-radius: 1vw; }
+    list-style-position: outside;
+    column-count: 2; }
+  .principles section,
+  .principles ul > li {
+    font-size: 1.25rem;
+    line-height: 1.825;
+    min-height: 7rem;
+    margin: 0 0 1rem;
+    background-color: #e3edf9;
+    padding: 1.5vw 2.25vw;
+    border-radius: 1vw;
+    vertical-align: middle; }
   .principles .button {
     font-size: 2rem;
     padding: 1.75rem 3rem;
-    margin: 2rem 0 2rem;
+    margin: 3.5rem 0 1rem;
     background: #1128A9; }
     .principles .button:hover {
       background: #569CF5; }
