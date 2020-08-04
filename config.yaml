@@ -8,7 +8,7 @@ disableKinds:
  -taxonomyTerm
 
 params:
-  description: openservicemesh
+  description: Open Service Mesh (OSM) is a lightweight, extensible, Cloud Native service mesh
   openGraph: true
   twittersite: openservicemesh
   twittertype: summary
