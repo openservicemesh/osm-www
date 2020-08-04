@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="2053px" height="2167px" viewBox="0 0 2053 2167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group</title>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#F6FCFF" offset="0%"></stop>
-            <stop stop-color="#EAF7FF" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" fill-rule="nonzero">
-            <polyline id="Path" fill="#E5FFF8" points="0 0 1810.68748 998.060713 1810.68748 1760.19228 0.312900029 1760.19228"></polyline>
-            <polyline id="Path" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" points="241.62635 406.640001 2052.31383 1404.70071 2052.31383 2166.83228 241.93925 2166.83228"></polyline>
-        </g>
-    </g>
-</svg>
+<svg height="2167" viewBox="0 0 2053 2167" width="2053" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0" stop-color="#f6fcff"/><stop offset="1" stop-color="#eaf7ff"/></linearGradient><g fill="none"><path d="m0 0 1810.68748 998.060713v762.131567h-1810.37457997" fill="#e5fff8"/><path d="m241.62635 406.640001 1810.68748 998.060709v762.13157h-1810.37458" fill="url(#a)"/></g></svg>
