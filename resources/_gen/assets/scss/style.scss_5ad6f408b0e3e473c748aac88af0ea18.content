@@ -7130,27 +7130,28 @@ body li {
   font-size: 1.25rem;
   line-height: 1.636; }
 
-.principles {
+.home-section {
   padding-top: 8vw;
   padding-bottom: 8.5vw;
   background-image: url("../images/intro-shapes.svg");
   background-repeat: no-repeat;
   background-position: 50% 30%;
   background-size: 250% auto; }
-  .principles h2 {
+  .home-section.talking-points {
+    background: white; }
+  .home-section h2 {
     font-size: 2rem;
     margin: 2vw auto 4rem;
     color: #1128A9;
     font-family: 'Spartan', sans-serif; }
-    .principles h2 strong {
+    .home-section h2 strong {
       color: #1128A9; }
-  .principles ul {
+  .home-section ul {
     margin: 5vw auto;
-    list-style: none;
+    list-style: disc;
     list-style-position: outside;
-    column-count: 2; }
-  .principles section,
-  .principles ul > li {
+    margin: 0 2rem; }
+  .home-section section {
     font-size: 1.25rem;
     line-height: 1.825;
     min-height: 7rem;
@@ -7159,14 +7160,14 @@ body li {
     padding: 1.5vw 2.25vw;
     border-radius: 1vw;
     vertical-align: middle; }
-  .principles .button {
+  .home-section .button {
     font-size: 2rem;
     padding: 1.75rem 3rem;
     margin: 3.5rem 0 1rem;
     background: #1128A9; }
-    .principles .button:hover {
+    .home-section .button:hover {
       background: #569CF5; }
-    .principles .button .fa {
+    .home-section .button .fa {
       margin: 0 1.25rem 0 0; }
 
 #community {

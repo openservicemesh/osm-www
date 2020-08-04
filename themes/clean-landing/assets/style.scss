@@ -132,13 +132,17 @@ body {
   }
 }
 
-.principles {
+.home-section {
   padding-top: 8vw;
   padding-bottom: 8.5vw;
   background-image: url('../images/intro-shapes.svg');
   background-repeat: no-repeat;
   background-position: 50% 30%;
   background-size: 250% auto;
+
+  &.talking-points {
+    background: white;
+  }
 
   h2 {
     font-size: 2rem;
@@ -153,13 +157,12 @@ body {
   
   ul {
     margin: 5vw auto;
-    list-style: none;
+    list-style: disc;
     list-style-position: outside;
-    column-count: 2;
+    margin: 0 2rem;
   }
 
-  section,
-  ul > li {
+  section {
     font-size: 1.25rem;
     line-height: 1.825;
     min-height: 7rem;

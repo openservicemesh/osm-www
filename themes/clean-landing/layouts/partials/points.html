@@ -1,0 +1,32 @@
+<div class="container home-section talking-points">
+  <div class="columns is-centered">
+    <div class="column">
+      <h2 class="has-text-centered">Talking Points:</h2>
+      
+      <p>OSM runs an <a href="https://www.envoyproxy.io/">Envoy</a> based control plane on <a href="https://kubernetes.io/">Kubernetes</a>, and can be is configured by utilizing <a href="https://smi-spec.io">SMI</a> APIs and works by injecting an Envoy proxy as a sidecar container next to each instance of your application. The proxy contains and executes rules around access control policies, implementation of routing configuration, and capturing metrics. The control plane continually configures proxies to ensure policies and routing rules are up to date and ensures proxies are healthy.</p>
+
+      <p>OSM features the following:</p>
+
+      <ul>
+        <li>
+          A more easily and transparently configuration experience of traffic shifting for deployments
+        </li>
+        <li>
+          Secure end-to-end service to service communication by enabling mTLS
+        </li>
+        <li>
+          Define and execute fine grained access control policies for services
+        </li>
+        <li>
+          Observability and insights into application metrics for debugging and monitoring services
+        </li>
+        <li>
+          Integrate with external certificate management services/solutions with a pluggable interface
+        </li>
+        <li>
+          Onboard applications onto the mesh by enabling automatic sidecar injection of Envoy proxy
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
