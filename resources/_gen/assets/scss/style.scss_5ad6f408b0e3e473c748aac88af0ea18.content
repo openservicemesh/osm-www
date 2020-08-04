@@ -7069,15 +7069,6 @@ pre {
     float: right;
     margin: 1.5rem 0.5rem 0; }
 
-.intro-smaller {
-  padding: 6rem 0 12rem;
-  background-image: url("../images/osm-web-top.jpg"), url("../images/osm-web-tile.png");
-  background-repeat: no-repeat, repeat-x;
-  background-position: 0 0;
-  background-size: auto 320px, auto 320px;
-  max-width: 100vw;
-  width: 100vw; }
-
 .intro {
   max-width: 100vw;
   padding-top: 6.5rem;
@@ -7137,8 +7128,6 @@ body li {
   background-repeat: no-repeat;
   background-position: 50% 30%;
   background-size: 250% auto; }
-  .home-section.talking-points {
-    background: white; }
   .home-section h2 {
     font-size: 2rem;
     margin: 2vw auto 4rem;
@@ -7170,6 +7159,16 @@ body li {
     .home-section .button .fa {
       margin: 0 1.25rem 0 0; }
 
+.talking-points {
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  background: linear-gradient(0deg, white 0%, #e6fff8 100%); }
+  .talking-points .columns {
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto; }
+
 #community {
   background: #94f8de; }
   #community h2 {
@@ -7187,21 +7186,21 @@ body li {
   position: relative; }
   .intro-smaller h2 {
     position: absolute;
-    left: 50vw;
-    margin-left: -35vw;
-    top: 5.5vw; }
+    left: 50%;
+    margin-left: -36rem;
+    top: 3.5rem; }
     .intro-smaller h2 img {
       float: left;
-      max-height: 12vw; }
+      max-height: 12rem; }
   .intro-smaller h1 {
-    font-size: 2.25vw;
+    font-size: 2.25rem;
     font-weight: bold;
     position: absolute;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    left: 50vw;
-    margin-left: -22.5vw;
-    top: 2.75vw;
+    left: 50%;
+    margin-left: -24rem;
+    top: 8.25rem;
     z-index: 1750; }
     .intro-smaller h1 a {
       color: #67CEB4; }
@@ -7212,6 +7211,7 @@ body li {
     padding: 3.5rem 0 3.5rem; }
   .blog-wrapper .columns .post-view {
     min-width: 75vw;
+    max-width: 1140px !important;
     padding: 2rem 5vw; }
     .blog-wrapper .columns .post-view .date {
       color: #999;
