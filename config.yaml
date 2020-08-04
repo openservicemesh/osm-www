@@ -10,6 +10,9 @@ disableKinds:
 params:
   description: openservicemesh
   openGraph: true
+  twittersite: openservicemesh
+  twittertype: summary
+  twitterimage: images/osm-twitter-card.png
   navbarlogo:
   # Logo (from static/images/logos/___)
    image: logos/osm.png
