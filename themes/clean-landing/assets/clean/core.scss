@@ -18,6 +18,11 @@ Main SCSS file / Fresh
 @import 'partials/responsive';
 @import 'partials/utils';
 
+@mixin spartan {
+  font-family: 'Spartan', sans-serif;
+}
+
+
 .section.is-medium {
   padding: 6rem 1.5rem
 }
