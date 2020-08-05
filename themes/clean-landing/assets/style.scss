@@ -444,3 +444,11 @@ footer {
     margin: 1rem 0 0;
   }
 }
+
+@media screen and (max-width:1025px) {
+  .intro {
+    padding: 0;
+    background: url('../images/angled-backdrop.svg') no-repeat center bottom;
+    background-size: 150% auto;
+  }
+}
