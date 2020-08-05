@@ -131,7 +131,7 @@ body {
   background-size: 250% auto;
 
   h2 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     margin: 2vw auto 4rem;
     color: $blue;
     @include spartan;
@@ -179,22 +179,39 @@ body {
   width: 100%;
   max-width: 100%;
   background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,255,248,1) 100%);
+  background:
+    url('../images/osmstack.svg') no-repeat 91% 50%,
+    linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,255,248,1) 100%);
+  background-size: 142% auto;
+
+  h2 {
+    margin-top: 3rem;
+  }
 
   .columns {
     max-width: 1152px;
     margin-left: auto;
     margin-right: auto;
+
+    p {
+      margin-bottom: 2.5rem;
+      padding-right: 3.5%;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 2rem;
+
+      li {
+        line-height: 2;
+      }
+
+    }
   }
 }
 
 #community {
   background: lighten($green-bg, 12.5%);
-
-  h2 {
-    font-size: 2rem;
-    margin: 2vw auto;
-  }
 }
 
 .intro-smaller {

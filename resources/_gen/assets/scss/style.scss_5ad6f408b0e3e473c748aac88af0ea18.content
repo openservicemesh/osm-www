@@ -7129,7 +7129,7 @@ body li {
   background-position: 50% 30%;
   background-size: 250% auto; }
   .home-section h2 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     margin: 2vw auto 4rem;
     color: #1128A9;
     font-family: 'Spartan', sans-serif; }
@@ -7163,17 +7163,25 @@ body li {
   width: 100%;
   max-width: 100%;
   background: white;
-  background: linear-gradient(0deg, white 0%, #e6fff8 100%); }
+  background: url("../images/osmstack.svg") no-repeat 91% 50%, linear-gradient(0deg, white 0%, #e6fff8 100%);
+  background-size: 142% auto; }
+  .talking-points h2 {
+    margin-top: 3rem; }
   .talking-points .columns {
     max-width: 1152px;
     margin-left: auto;
     margin-right: auto; }
+    .talking-points .columns p {
+      margin-bottom: 2.5rem;
+      padding-right: 3.5%; }
+    .talking-points .columns ul {
+      margin-top: 0;
+      margin-bottom: 2rem; }
+      .talking-points .columns ul li {
+        line-height: 2; }
 
 #community {
   background: #94f8de; }
-  #community h2 {
-    font-size: 2rem;
-    margin: 2vw auto; }
 
 .intro-smaller {
   padding: 8rem 0 6rem;
