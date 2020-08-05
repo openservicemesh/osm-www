@@ -2,7 +2,7 @@
 title: "Introducing Open Service Mesh"
 slug: "introducing-open-service-mesh"
 authorname: "Michelle Noorali"
-author: "@openservicemesh"
+author: "@michellenoorali"
 authorlink: "https://twitter.com/openservicemesh"
 date: "2020-08-04T05:00:00-07:00"
 ---
