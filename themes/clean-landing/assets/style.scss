@@ -437,7 +437,7 @@ footer {
   width: 100%;
   max-width: 100%;
   border-top: 1px solid rgba(100,100,100,0.125);
-  padding: 2.5rem 0 3.5rem;
+  padding: 2.5rem 0 3.5rem !important;
 
   p,
   a {
@@ -502,9 +502,21 @@ footer {
     background: url('../images/angled-backdrop.svg') no-repeat center top;
     background-size: 150% auto;
 
+    &:after {
+      position: absolute;
+      bottom: 0;
+      background-color: RGBA(235, 247, 255, 1.00);
+      content: " ";
+      width: 100%;
+      height: 30rem;
+      z-index: 1;
+    }
+
     .columns {
       max-width: 100%;
       width: 100%;
+      z-index: 100;
+      position: relative;
     }
 
     p.lead {
@@ -514,20 +526,36 @@ footer {
   }
 
   .home-section {
+    padding-top: 4rem;
+    
     h2 {
       font-size: 1.5rem;
       font-weight: bold;
     }
     
+    > .columns {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
     section {
       min-height: 1px;
       background-color: RGBA(194, 215, 240, 0.33);
-      margin-bottom: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .principles {
+    .columns .columns {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
   .talking-points {
     ul {
+      margin: 0;
+
       li {
         font-size: 1rem;
         line-height: 1.5;
@@ -546,15 +574,21 @@ footer {
   .blog-wrapper {
     .columns {
 
+      .content-wrapper,
+      article.content-wrapper article {
+        padding: 0;
+      }
+
       h1 {
         font-size: 2rem;
         padding-right: 2.5%;
         max-width: 95%;
         line-height: 1.636;
+        margin-top: 3.5rem;
       }
 
       .post-view {
-        // padding: 2rem 10%;
+        padding: 0;
 
         p, ul {
           font-size: 1rem;
@@ -576,8 +610,11 @@ footer {
     }
 
     &.blog-single .columns {
+      padding-top: 4rem;
+      
       h1 {
         font-size: 2rem;
+        padding-right: 5%;
       }
     }
   }
