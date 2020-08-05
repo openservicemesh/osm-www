@@ -7384,10 +7384,17 @@ footer {
     .intro p.lead {
       margin-top: 6.5rem;
       font-size: 1.5rem; }
+  .home-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold; }
   .home-section section {
     min-height: 1px;
     background-color: RGBA(194, 215, 240, 0.33);
     margin-bottom: 0; }
+  .talking-points ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.825rem; }
   .container .columns {
     padding-left: 10%;
     padding-right: 10%; }
