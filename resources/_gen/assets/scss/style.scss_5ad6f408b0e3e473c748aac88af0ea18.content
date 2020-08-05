@@ -7143,7 +7143,7 @@ body li {
   .home-section section {
     font-size: 1.25rem;
     line-height: 1.825;
-    min-height: 7rem;
+    min-height: 4rem;
     margin: 0 0 1rem;
     background-color: #e3edf9;
     padding: 1.5vw 2.25vw;

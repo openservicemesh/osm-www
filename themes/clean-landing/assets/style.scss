@@ -151,7 +151,7 @@ body {
   section {
     font-size: 1.25rem;
     line-height: 1.825;
-    min-height: 7rem;
+    min-height: 4rem;
     margin: 0 0 1rem;
     background-color: lighten($bluel, 8.25%);
     padding: 1.5vw 2.25vw;
@@ -450,5 +450,10 @@ footer {
     padding: 0;
     background: url('../images/angled-backdrop.svg') no-repeat center bottom;
     background-size: 150% auto;
+
+    p.lead {
+      
+
+    }
   }
 }
