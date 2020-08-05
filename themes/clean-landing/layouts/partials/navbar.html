@@ -25,9 +25,35 @@
         {{- end }}
       </div>
 
-      <a class="github-button" href="https://github.com/ntkme/github-buttons/subscription" data-icon="octicon-eye" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+      <a class="github-button" href="https://github.com/openservicemesh/osm" data-icon="octicon-eye" aria-label="Watch openservicemesh/osm on GitHub">Watch</a>
 
-      <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+      <a class="github-button" href="https://github.com/openservicemesh/osm" data-icon="octicon-star" aria-label="Star openservicemesh/osm on GitHub">Star</a>
     </div>
   </div>
+</nav>
+
+<nav class="navbar is-hidden-desktop">
+
+  <a href="/">
+    <img src="../images/osm-logo-stacked.svg" alt="Open Service Mesh" />
+  </a>
+  {{- range $navbar }}
+  {{- if .sublinks }}
+  <div class="navbar-item has-dropdown is-hoverable has-text-left">
+    <a class="navbar-link" href=".url">
+      {{ .title }}
+    </a>
+  </div>
+  {{- else if .button }}
+  <a href="{{ .url }}" class="navbar-item">
+    <span class="button signup-button rounded secondary-btn raised">
+      {{ .title }}
+    </span>
+  </a>
+  {{- else }}
+  <a href="{{ .url }}" class="navbar-item is-secondary">
+    {{ .title }}
+  </a>
+  {{- end }}
+  {{- end }}
 </nav>
