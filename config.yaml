@@ -13,23 +13,9 @@ params:
   twittersite: openservicemesh
   twittertype: summary_large_image
   twitterimage: images/osm-twitter-card.png
-  navbarlogo:
-  # Logo (from static/images/logos/___)
-   image: logos/osm.png
-   link: https://openservicemesh.io/
   font:
     name: "Spartan"
     sizes: [400,600]
-  hero:
-    # Main hero title
-    title: openservicemesh
-    # Hero subtitle (optional)
-    subtitle: 
-    # Button text
-    # buttontext: Get started
-    # Where the main hero button links to
-    # buttonlink: "#"
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Github
     url: https://github.com/openservicemesh/osm
@@ -38,17 +24,4 @@ params:
   # - title: Slack
   #   url: https://kubernetes.slack.com/messages
   - title: Twitter
-    url: openservicemesh
-  footer:
-    logo: osm.svg
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://twitter.com/openservicemesh
-      icon: twitter
-      name: Twitter
-    # - link: https://kubernetes.slack.com/messages/
-    #   icon: users
-    #   name: Slack
-    - link: https://github.com/openservicemesh/osm
-      icon: github
-      name: Github
+    url: https://twitter.com/openservicemesh
