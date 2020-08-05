@@ -3,8 +3,8 @@ title: "Introducing Open Service Mesh"
 slug: "introducing-open-service-mesh"
 authorname: "Michelle Noorali"
 author: "@michellenoorali"
-authorlink: "https://twitter.com/openservicemesh"
-date: "2020-08-04T05:00:00-07:00"
+authorlink: "https://twitter.com/michellenoorali"
+date: "2020-08-05T05:00:00-07:00"
 ---
 
 It is no secret that although microservice environments enable portability, allow faster and more frequent deployment cycles, and can even enable organizations to create teams with more specialized areas of concern, they also come with increased needs around solutions for traffic management, security, and observability. The service mesh pattern for these needs is implemented numerous ways across the ecosystem, and Microsoft has been active in the [Service Mesh Interface](https://smi-spec.io) (SMI) community, helping define the specification for a standard set of portable APIs for common service mesh functionality across service mesh implementations. Vendors can implement SMI to ensure that ecosystem tools can work on many meshes while allowing customer choice of mesh provider.
@@ -20,3 +20,4 @@ These goals are rooted in customer requests and have led us to three underlying 
 OSM simplifies tasks like configuring traffic shifting for common deployment scenarios, securing service-to-service communication with automatic mTLS, enforcing fine-grained access control policies for services, observing metrics for debugging and monitoring of services, integrating with native or external certificate management solutions, and onboarding applications onto the mesh with automatic sidecar injection.
 
 We’re excited to refine this mesh, working on OSM with the community as well as learning from it and informing the evolution of the SMI specification in conjunction with the broader SMI community. We’ll be demoing OSM at [KubeCon EU Virtual 2020](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/) as well as in an upcoming [CNCF webinar](https://www.cncf.io/webinars/cncf-ambassador-webinar-navigating-the-service-mesh-ecosystem/) on August 14, 2020. We invite you to join us on [GitHub](https://github.com/openservicemesh) to learn and share!
+<!--more--> 
