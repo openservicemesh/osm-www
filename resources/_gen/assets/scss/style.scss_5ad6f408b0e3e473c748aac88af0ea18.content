@@ -7141,7 +7141,7 @@ body li {
     list-style-position: outside;
     margin: 0 2rem; }
   .home-section section {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     line-height: 1.825;
     min-height: 4rem;
     margin: 0 0 1rem;
