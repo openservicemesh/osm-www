@@ -1,0 +1,473 @@
+@import "bulma/bulma";
+@import "clean/core";
+
+
+/* osm brand colors
+*/
+// primary
+$blue: #1128A9;
+$green: #67CEB4;
+// secondary
+$bluem: #569CF5;
+$greenl: #58F4CC;
+$orange: #FB8143;
+$orangel: F29A51;
+$bluel: #C1D6F1;
+$green-bg: #58F4CC;
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.94);
+
+  a.navbar-item {
+    color: $blue;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    font-size: 1.125rem;
+
+    &:hover {
+      border-bottom: 2px solid $green;
+    }
+  }
+
+  span {
+    float: right;
+    margin: 1.5rem 0.5rem 0;
+  }
+}
+
+.intro {
+  max-width: 100vw;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+  width: 100vw;
+  background-image:
+    url('../images/intro-shapes-bottom.svg'),
+    url('../images/angled-backdrop.svg'),
+    url('../images/intro-shapes.svg');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position:
+    5% 115%,
+    center 75px,
+    42.5% -25px;
+  background-size:
+    15vw auto,
+    auto auto,
+    auto auto;
+
+  p {
+    font-size: 1.333rem;
+    line-height: 1.85;
+    margin: 0 0 1.75em;
+    color: $blue;
+    padding: 0;
+
+    &.lead {
+      font-size: 1.75rem;
+      color: darken($blue, 7.5%);
+      margin: 385px auto 3.5rem;
+      @include spartan;
+      font-weight: bold;
+    }
+
+    a {
+      border-bottom: 2px solid $greenl;
+      color: darken($blue, 7.5%);
+    }
+    
+    &.offset {
+      margin-left: 5vw;
+    }
+
+    strong {
+      color: $blue;
+    }
+  }
+
+  .columns {
+    max-width: 1152px;
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // homepage intro title
+  h1 {
+    position: absolute;
+    top: 155px;
+    left: 50%;
+    max-width: 14.25rem;
+    margin: 0 0 0 -25.25rem;
+  }
+
+  // homepage intro icon
+  h2 {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    max-width: 22.5rem;
+    margin: 0 0 0 9rem;
+  }
+
+}
+
+body {
+  p,
+  ul,
+  li {
+    font-size: 1.25rem;
+    line-height: 1.636;
+  }
+}
+
+.home-section {
+  padding-top: 8vw;
+  padding-bottom: 8.5vw;
+  background-image: url('../images/intro-shapes.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: 250% auto;
+
+  h2 {
+    font-size: 2.25rem;
+    margin: 2vw auto 4rem;
+    color: $blue;
+    @include spartan;
+
+    strong {
+      color: $blue;
+    }
+  }
+  
+  ul {
+    margin: 5vw auto;
+    list-style: disc;
+    list-style-position: outside;
+    margin: 0 2rem;
+  }
+
+  section {
+    font-size: 1.25rem;
+    line-height: 1.825;
+    min-height: 4rem;
+    margin: 0 0 1rem;
+    background-color: lighten($bluel, 8.25%);
+    padding: 1.5vw 2.25vw;
+    border-radius: 1vw;
+    vertical-align: middle;
+  }
+
+  .button {
+    font-size: 2rem;
+    padding: 1.75rem 3rem;
+    margin: 3.5rem 0 1rem;
+    background: $blue;
+
+    &:hover {
+      background: $bluem;
+    }
+
+    .fa {
+      margin: 0 1.25rem 0 0;
+    }
+  }
+}
+
+.talking-points {
+  width: 100%;
+  max-width: 100%;
+  background: rgb(255,255,255);
+  background:
+    url('../images/osmstack.svg') no-repeat 91% 50%,
+    linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,255,248,1) 100%);
+  background-size: 142% auto;
+
+  h2 {
+    margin-top: 3rem;
+  }
+
+  .columns {
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      margin-bottom: 2.5rem;
+      padding-right: 3.5%;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 2rem;
+
+      li {
+        line-height: 2;
+      }
+
+    }
+  }
+}
+
+#community {
+  background: lighten($green-bg, 12.5%);
+}
+
+.intro-smaller {
+  padding: 8rem 0 6rem;
+  background-image: url('../images/osm-web-top.jpg'), url('../images/osm-web-tile.png');
+  background-repeat: no-repeat, repeat-x;
+  background-position:  0 0;
+  background-size: auto 320px, auto 320px;
+  max-width: 100vw;
+  width: 100vw;
+  position: relative;
+
+  h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -36rem;
+    top: 3.5rem;
+    
+    img {
+      float: left;
+      max-height: 12rem;
+    }
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    left: 50%;
+    margin-left: -24rem;
+    top: 8.25rem;
+    z-index: 1750;
+    
+    a {
+      color: $green;
+    }
+  }
+}
+
+.blog-wrapper {
+  .columns {
+    padding-bottom: 8.5rem;
+
+    article.content-wrapper article {
+      padding: 3.5rem 0 3.5rem;
+    }
+
+    .post-view {
+      min-width: 75vw;
+      max-width: 1140px !important;
+      padding: 2rem 5vw;
+
+      .date {
+        color: #999;
+        font-size: 1rem;
+        font-family: monospace;
+        margin-bottom: 2rem;
+      }
+
+      p, ul {
+        width: 100%;
+        font-size: 1.35rem;
+        line-height: 1.825;
+        margin: 2.25vw 0;
+      }
+
+      a {
+        border-bottom: 2px solid lighten($bluel, 5%);
+        color: darken($bluem, 10%);
+
+        &:hover {
+          border-bottom-color: $blue;
+        }
+
+        &.read-more {
+          background-color: lighten($greenl, 25%);
+          padding: 0.5rem 1rem;
+        }
+      }
+
+      h1 {
+        a {
+          color: $blue;
+        }
+      }
+    }
+
+    h1, h2, h3, h4, blockquote {
+      @include spartan;
+    }
+
+    h1 {
+      color: $blue;
+      font-size: 3rem;
+      line-height: 1.4;
+      margin: 3rem 0 1.5vw;
+      max-width: 65vw;
+      padding-right: 12.5%;
+      font-weight: bold;
+      
+      a {
+        color: $blue;
+        padding: 0.5vw 0;
+        border-bottom: 3px solid lighten($greenl, 12.5%);
+      }
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: darken($green, 12.5%);
+      line-height: 1.4;
+      margin: 4vw 0 2.5vw;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-weight: bold;
+      margin: 3.75vw 0 1.5vw;
+      letter-spacing: 0.25em;
+    }
+  }
+
+  &.blog-single {
+    .columns {
+      padding-top: 5rem;
+      
+      h1 {
+        font-size: 3rem;
+        padding-right: 15%;
+      }
+    }
+
+    article.post .post-content {
+      padding-bottom: 1rem;
+    }
+
+    img {
+      margin: 1.5rem 0 4.5rem;
+      max-width: 100%;
+    }
+
+    code {
+      font-size: 0.95rem;
+      border: none;
+      font-weight: normal;
+      background-color: lighten($green-bg, 25%);
+    }
+
+    pre {
+      &:before {
+        background: $green;
+        opacity: 0.125;
+        border: none;
+      }
+
+      background-color: lighten($green-bg, 25%);
+      color: $blue;
+      padding-bottom: 1.5rem;
+      margin: 3rem 0;
+    }
+
+    blockquote {
+      border-left: 2px solid $green-bg;
+      padding: 0.12rem 2rem;
+      line-height: 2;
+      margin: 3rem 0;
+      background: lighten($green-bg, 32%);
+    }
+
+    p.author {
+      font-weight: bold;
+      padding-top: 2rem;
+      font-size: 1.5vw;
+
+      a {
+        color: $blue;
+      }
+    }
+  }
+}
+
+.pagination {
+  background: lighten($greenl, 3.5%);
+  margin-top: 3.5rem;
+  display: inline-block;
+  padding: 0.5vw 1.5vw;
+
+  span {
+  }
+
+  a {
+    color: $green;
+  }
+
+  span, a {
+    padding: 1rem;
+    margin: 0 0.5vw;
+    font-size: 1.25rem;
+    font-weight: bold;
+    float: left;
+    line-height: 2;
+    border: none;
+    outline: none;
+  }
+}
+
+footer {
+  width: 100%;
+  max-width: 100%;
+  border-top: 1px solid rgba(100,100,100,0.125);
+  padding: 2.5rem 0 3.5rem;
+
+  p,
+  a {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  a {
+    color: #2F78CD;
+  }
+
+  img {
+    max-width: 12.5vw;
+  }
+
+  nav {
+    float: right;
+    margin: 1rem 0 0;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .navbar-mobile {
+    position: relative;
+
+    a.navbar-item {
+      margin: 0.5rem 6.67%;
+    }
+
+  }
+  
+  .intro {
+    padding: 0;
+    background: url('../images/angled-backdrop.svg') no-repeat center bottom;
+    background-size: 150% auto;
+
+    .columns {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    p.lead {
+      
+
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<div class="container home-section talking-points">
+  <div class="columns is-centered">
+    <div class="column is-four-fifths">
+      <h2 class="has-text-centered">About Open Service Mesh</h2>
+      
+      <p>OSM runs on <a href="https://kubernetes.io/">Kubernetes</a>. The control plane implements <a href="https://www.envoyproxy.io/">Envoy's</a> xDS and is configured with <a href="https://smi-spec.io/">SMI</a> APIs. OSM injects an Envoy proxy as a sidecar container next to each instance of an application.</p>
+      
+      <p>The data plane (the set of Envoy proxies running as part OSM) executess rules around access control policies, implements routing configuration, and captures metrics. The control plane continually programs the data plane to ensure policies and routing rules are up to date and ensures the data plane is healthy.</p>
+
+      <hr />
+
+      <h2 class="has-text-centered">Features</h2>
+      
+      <ul>
+        <li>
+          Easily and transparently configure <strong>traffic shifting</strong> for deployments
+        </li>
+        <li>
+          Secure end-to-end service to service communication by <strong>enabling mTLS</strong>
+        </li>
+        <li>
+          Define and execute fine grained <strong>access control policies</strong> for services
+        </li>
+        <li>
+          Observability and insights into application metrics for <strong>debugging and monitoring</strong> services
+        </li>
+        <li>
+          Integrate with external <strong>certificate management</strong> services/solutions with a pluggable interface
+        </li>
+        <li>
+          Onboard applications onto the mesh by enabling <strong>automatic sidecar injection</strong> of Envoy proxy
+        </li>
+        <li><strong>Flexible</strong> enough to handle both simple and complex scenarios through SMI and Envoy XDS APIs</li>
+      </ul>
+    </div>
+  </div>
+</div>

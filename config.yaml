@@ -1,6 +1,6 @@
 baseURL: https://openservicemesh.io/
 languageCode: en-us
-title: OSM
+title: Open Service Mesh
 theme: clean-landing
 
 disableKinds:
@@ -8,44 +8,22 @@ disableKinds:
  -taxonomyTerm
 
 params:
-  description: openservicemesh
+  description: Open Service Mesh (OSM) is a lightweight, extensible, Cloud Native service mesh
   openGraph: true
-  navbarlogo:
-  # Logo (from static/images/logos/___)
-   image: logos/osm.png
-   link: https://openservicemesh.io/
+  twittersite: openservicemesh
+  twittertype: summary_large_image
+  twitterimage: images/osm-twitter-card.png
   font:
-    name: "Helvetica"
+    name: "Spartan"
     sizes: [400,600]
-  hero:
-    # Main hero title
-    title: openservicemesh
-    # Hero subtitle (optional)
-    subtitle: 
-    # Button text
-    # buttontext: Get started
-    # Where the main hero button links to
-    # buttonlink: "#"
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
-  # navbar:
-  # - title: Home
-  #   url: /#
-  # - title: About
-  #   url: /#about
-  # - title: Docs
-  #   url: https://github.com/openservicemesh/osm/docs
-  # - title: Community
-  #   url: /#community
-  footer:
-    logo: osm.svg
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    # - link: https://twitter.com/openservicemesh
-    #   icon: twitter
-    #   name: Twitter
-    # - link: https://gitter.im/openservicemesh
-    #   icon: users
-    #   name: Gitter
-    - link: https://github.com/openservicemesh/osm
-      icon: github
-      name: Github
+  navbar:
+  - title: Home
+    url: /
+  - title: Github
+    url: https://github.com/openservicemesh/osm
+  - title: Blog
+    url: /blog
+  # - title: Slack
+  #   url: https://kubernetes.slack.com/messages
+  - title: Twitter
+    url: https://twitter.com/openservicemesh
