@@ -7350,7 +7350,7 @@ footer {
     float: right;
     margin: 1rem 0 0; }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1087px) {
   body {
     overflow-x: hidden !important;
     width: 100vw;
@@ -7384,8 +7384,8 @@ footer {
       background-color: RGBA(235, 247, 255, 1);
       content: " ";
       width: 100%;
-      height: 30rem;
-      z-index: 1; }
+      height: 5rem;
+      z-index: -1; }
     .intro .columns {
       max-width: 100%;
       width: 100%;
