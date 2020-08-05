@@ -8,13 +8,13 @@
 <div class="container blog blog-wrapper blog-single">
   <div class="columns is-centered">
 
-    <article class="post column is-two-thirds post-view">
+    <article class="post column post-view">
 
       <h1>{{ .Title }}</h1>
-      <hr />
 
       <p class="author"><a href="{{ .Params.authorlink }}" target="_blank">{{ .Params.authorname }}<br> <small>{{ .Params.author }}</a></small></p>
 
+      <hr />
       <p class="date">{{ .Date.Format "Jan 02, 2006" }}</p>
       
       <div class="post-content">{{ .Content }}</div>

@@ -1,6 +1,6 @@
 {{- $navbar         := .Site.Params.navbar }}
 
-<nav class="navbar no-shadow" role="navigation" aria-label="main navigation">
+<nav class="navbar no-shadow is-hidden-mobile" role="navigation" aria-label="main navigation">
   <div class="container">
     <div id="topNav" class="navbar-menu">
       <div class="navbar-start">
@@ -35,8 +35,9 @@
 <nav class="navbar navbar-mobile is-hidden-desktop">
 
   <a href="/">
-    <img src="../images/osm-logo-left.svg" alt="Open Service Mesh" />
+    <img src="{{ .Site.BaseURL }}images/osm-logo-stacked.svg" alt="Open Service Mesh" />
   </a>
+  <div>
   {{- range $navbar }}
   {{- if .sublinks }}
   <div class="navbar-item has-dropdown is-hoverable has-text-left">
@@ -56,4 +57,5 @@
   </a>
   {{- end }}
   {{- end }}
+  </div>
 </nav>

@@ -15,6 +15,10 @@ $orangel: F29A51;
 $bluel: #C1D6F1;
 $green-bg: #58F4CC;
 
+body {
+  overflow-x: hidden !important;
+}
+
 
 .navbar {
   position: sticky;
@@ -219,22 +223,15 @@ body {
   padding: 8rem 0 6rem;
   background-image: url('../images/osm-web-top.jpg'), url('../images/osm-web-tile.png');
   background-repeat: no-repeat, repeat-x;
-  background-position:  0 0;
+  background-position: center top;
   background-size: auto 320px, auto 320px;
   max-width: 100vw;
   width: 100vw;
   position: relative;
 
-  h2 {
-    position: absolute;
-    left: 50%;
-    margin-left: -36rem;
-    top: 3.5rem;
-    
-    img {
-      float: left;
-      max-height: 12rem;
-    }
+  .container .column {
+    position: relative;
+    z-index: 1750;
   }
 
   h1 {
@@ -243,13 +240,23 @@ body {
     position: absolute;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    left: 50%;
-    margin-left: -24rem;
-    top: 8.25rem;
-    z-index: 1750;
+    left: 14rem;
+    top: 1.825rem;
+    margin: 0;
     
     a {
-      color: $green;
+      color: $bluem;
+    }
+  }
+
+  h2 {
+    position: absolute;
+    left: -1.5rem;
+    top: -4.5rem;
+    margin: 0;
+    
+    img {
+      max-height: 15rem;
     }
   }
 }
@@ -263,15 +270,13 @@ body {
     }
 
     .post-view {
-      min-width: 75vw;
-      max-width: 1140px !important;
       padding: 2rem 5vw;
 
       .date {
         color: #999;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-family: monospace;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
       }
 
       p, ul {
@@ -308,11 +313,12 @@ body {
 
     h1 {
       color: $blue;
-      font-size: 3rem;
+      font-size: 2.85rem;
+      letter-spacing: -0.05em;
       line-height: 1.4;
       margin: 3rem 0 1.5vw;
       max-width: 65vw;
-      padding-right: 12.5%;
+      padding-right: 5%;
       font-weight: bold;
       
       a {
@@ -339,11 +345,12 @@ body {
 
   &.blog-single {
     .columns {
-      padding-top: 5rem;
+      padding-top: 7.5rem;
       
       h1 {
-        font-size: 3rem;
-        padding-right: 15%;
+        font-size: 4.25rem;
+        padding-right: 20%;
+        margin: 0;
       }
     }
 
@@ -384,13 +391,18 @@ body {
       background: lighten($green-bg, 32%);
     }
 
+    hr {
+      margin-bottom: 3.25rem;
+    }
+
     p.author {
-      font-weight: bold;
-      padding-top: 2rem;
-      font-size: 1.5vw;
+      padding-top: 0.25rem;
+      font-size: 1.5rem;
+      line-height: 1.5;
 
       a {
-        color: $blue;
+        color: $charcoal;
+        border-color: lighten($green-bg, 25%);
       }
     }
   }
@@ -446,19 +458,48 @@ footer {
   }
 }
 
-@media screen and (max-width:1025px) {
+
+// mobile styles
+@media screen and (max-width:1040px) {
+  body {
+    overflow-x: hidden !important;
+    width: 100vw;
+    font-size: 14px;
+  }
+
+  .navbar {
+    background: transparent !important;
+  }
+
   .navbar-mobile {
     position: relative;
+    text-align: center;
+    background: transparent !important;
+    border-bottom: 2px solid RGBA(194, 215, 240, 0.1);
 
-    a.navbar-item {
-      margin: 0.5rem 6.67%;
+    img {
+      max-width: 12rem;
+      margin: 0 auto;
     }
 
+    nav {
+      width: 100%;
+    }
+
+    a.navbar-item {
+      border-bottom: 2px solid lighten($green-bg, 10);
+      display: inline-block;
+      font-size: 1.125rem;
+      padding: 0.25rem 0;
+      text-align: center;
+      margin: 1rem 4vw -2px;
+    }
   }
-  
+
+  // homepage
   .intro {
     padding: 0;
-    background: url('../images/angled-backdrop.svg') no-repeat center bottom;
+    background: url('../images/angled-backdrop.svg') no-repeat center top;
     background-size: 150% auto;
 
     .columns {
@@ -467,8 +508,64 @@ footer {
     }
 
     p.lead {
-      
-
+      margin-top: 6.5rem;
+      font-size: 1.5rem;
     }
+  }
+
+  .home-section section {
+    min-height: 1px;
+    background-color: RGBA(194, 215, 240, 0.33);
+    margin-bottom: 0;
+  }
+
+  .container {
+    .columns {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+
+  .blog-wrapper {
+    .columns {
+
+      h1 {
+        font-size: 2rem;
+        padding-right: 2.5%;
+        max-width: 95%;
+        line-height: 1.636;
+      }
+
+      .post-view {
+        // padding: 2rem 10%;
+
+        p, ul {
+          font-size: 1rem;
+          margin-bottom: 2rem;
+        }
+
+        .date {
+          font-size: 1rem;
+        }
+
+        blockquote {
+          font-size: 1.25rem;
+          border-left: 4px solid lighten($green-bg, 12.5%);
+          background: transparent;
+          padding: 0 0 0 1rem;
+          color: $blue;
+        }
+      }
+    }
+
+    &.blog-single .columns {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .footer {
+    padding-bottom: 2rem;
   }
 }
