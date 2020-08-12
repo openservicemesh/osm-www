@@ -23,7 +23,7 @@ params:
     url: https://github.com/openservicemesh/osm
   - title: Blog
     url: /blog
-  # - title: Slack
-  #   url: https://kubernetes.slack.com/messages
+  - title: Slack
+    url: https://cloud-native.slack.com/archives/C018794NV1C
   - title: Twitter
     url: https://twitter.com/openservicemesh
