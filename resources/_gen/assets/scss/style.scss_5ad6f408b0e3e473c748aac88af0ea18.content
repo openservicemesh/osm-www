@@ -7185,6 +7185,18 @@ body li {
 
 #community {
   background: #94f8de; }
+  #community h4 {
+    font-family: 'Spartan', sans-serif;
+    color: #1128A9; }
+  #community .fa {
+    position: absolute;
+    left: 3.25rem;
+    top: 4rem;
+    font-size: 4.5rem;
+    color: #58F4CC; }
+  #community p {
+    margin-left: 9rem;
+    text-align: left; }
 
 .intro-smaller {
   padding: 8rem 0 6rem;
