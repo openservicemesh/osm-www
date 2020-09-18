@@ -4,7 +4,7 @@ slug: "open-service-mesh-osm-accepted-into-cncf-as-a-sandbox-project"
 authorname: "Phill Gibson"
 author: "@phillipgibson"
 authorlink: "https://twitter.com/phillipgibson"
-date: "2020-08-05T05:00:00-07:00"
+date: "2020-09-18T12:00:00-04:00"
 ---
 
 We are delighted to announce that the Open Service Mesh (OSM) project has been accepted to enter the Cloud Native Computing Foundation (CNCF) as a [sandbox](https://www.cncf.io/sandbox-projects/) project.  
