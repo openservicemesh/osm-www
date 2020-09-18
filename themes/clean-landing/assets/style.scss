@@ -332,7 +332,7 @@ body {
       color: $blue;
       font-size: 2.85rem;
       letter-spacing: -0.05em;
-      line-height: 1.4;
+      line-height: 1.636;
       margin: 3rem 0 1.5vw;
       max-width: 65vw;
       padding-right: 5%;
@@ -365,9 +365,10 @@ body {
       padding-top: 7.5rem;
       
       h1 {
-        font-size: 4.25rem;
-        padding-right: 20%;
+        font-size: 3.333rem;
         margin: 0;
+        letter-spacing: -0.05em;
+        line-height: 1.5;
       }
     }
 
