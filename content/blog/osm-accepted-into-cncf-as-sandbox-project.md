@@ -15,6 +15,6 @@ Now that OSM has met this milestone, we look forward to growing the community an
 
 As for what comes next for OSM, the community is hard at work fully implementing the SMI APIs along with focusing on stability and end-to-end testing. You can follow the project [roadmap](https://github.com/openservicemesh/osm/blob/main/ROADMAP.md) for further detail. 
 
-If you’re interested in learning more about OSM, check out the initial [launch blog](https://www.cncf.io/sandbox-projects/). You can also check out the communication [channels](https://openservicemesh.io/) or the [Github repo](https://github.com/openservicemesh/osm) to familiarize yourself with the project. 
+If you’re interested in learning more about OSM, check out the initial [launch blog](https://openservicemesh.io/blog/introducing-open-service-mesh/). You can also check out the communication [channels](https://openservicemesh.io/) or the [Github repo](https://github.com/openservicemesh/osm) to familiarize yourself with the project. 
 
 We will be holding our first community meeting starting October 13th, 2020 at 1:30pm-2pm EDT / 10:30am-11am PDT. More information to come for the meeting details for joining soon. We look forward to working with you building OSM in the community. 
