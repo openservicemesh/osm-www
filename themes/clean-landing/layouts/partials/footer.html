@@ -1,11 +1,19 @@
 {{- $navbar         := .Site.Params.navbar }}
+{{ $year := now.Year }}
 
 <footer class="footer">
   <div class="container">
     <div class="columns is-gapless">
       <div class="column is-half is-full-mobile">
-        <p><strong>Brought to you by <a href="https://azure.microsoft.com/en-us/">Microsoft Azure</a></strong>.</p>
-        <p>OSM has adopted the <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft Open Source Code of Conduct</a>.</p>
+        <p>
+        <p>
+
+Open Service Mesh is a <a href="https://cncf.io">Cloud Native Computing Foundation</a> sandbox project.
+<img class="logo-cncf" src="/images/logos/cncf-color.svg" alt="Cloud Native Computing Foundation" />
+<p>
+&copy; Open Service Mesh Authors {{ $year }} | Documentation Distributed under <a href="https://creativecommons.org/licenses/by/4.0" target="_blank">CC-BY-4.0</a>. &copy; {{ $year }} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage" target="_blank">Trademark Usage</a> page.
+        </p>
+
       </div>
       
       <div class="column is-half is-full-mobile">
