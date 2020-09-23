@@ -471,6 +471,48 @@ footer {
     float: right;
     margin: 1rem 0 0;
   }
+
+  h4 {
+    line-height: 1.667;
+  }
+
+  .footer-cncf {
+    color: $blue;
+    font-weight: 600;
+    @include spartan;
+    font-size: 1.333rem;
+    padding-right: 5vw;
+    margin: 1em 0 1.5em;
+
+    a {
+      font-size: 1.425rem;
+      letter-spacing: 0.035em;
+      color: $blue;
+    }
+
+    img {
+      max-width: 20vw;
+    }
+  }
+
+  .footer-legal {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .navbar-menu {
+    a.navbar-item {
+      margin: 0.25rem 0.75rem 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 0.2rem;
+      border-bottom: 3px solid lighten($bluel, 7.5%);
+
+      &:hover {
+        border-bottom-color: $greenl;
+      }
+    }
+  }
 }
 
 
@@ -636,5 +678,18 @@ footer {
 
   .footer {
     padding-bottom: 2rem;
+
+    .footer-cncf,
+    .footer-cncf a {
+      font-size: 1.5rem;
+
+       a {
+         font-size: 1em;
+       }
+    }
+
+    .footer-cncf img {
+      min-width: 50vw;
+    }
   }
 }
