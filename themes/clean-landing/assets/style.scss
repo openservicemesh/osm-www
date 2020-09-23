@@ -472,6 +472,10 @@ footer {
     margin: 1rem 0 0;
   }
 
+  h4 {
+    line-height: 1.667;
+  }
+
   .footer-cncf {
     color: $blue;
     font-weight: 600;
@@ -674,6 +678,15 @@ footer {
 
   .footer {
     padding-bottom: 2rem;
+
+    .footer-cncf,
+    .footer-cncf a {
+      font-size: 1.5rem;
+
+       a {
+         font-size: 1em;
+       }
+    }
 
     .footer-cncf img {
       min-width: 50vw;

@@ -7362,6 +7362,8 @@ footer {
   footer nav {
     float: right;
     margin: 1rem 0 0; }
+  footer h4 {
+    line-height: 1.667; }
   footer .footer-cncf {
     color: #1128A9;
     font-weight: 600;
@@ -7484,6 +7486,12 @@ footer {
       padding-right: 5%; }
   .footer {
     padding-bottom: 2rem; }
+    .footer .footer-cncf,
+    .footer .footer-cncf a {
+      font-size: 1.5rem; }
+      .footer .footer-cncf a,
+      .footer .footer-cncf a a {
+        font-size: 1em; }
     .footer .footer-cncf img {
       min-width: 50vw; } }
 
