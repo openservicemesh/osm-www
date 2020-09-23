@@ -7263,7 +7263,6 @@ body li {
     letter-spacing: -0.05em;
     line-height: 1.636;
     margin: 3rem 0 1.5vw;
-    max-width: 65vw;
     padding-right: 5%;
     font-weight: bold; }
     .blog-wrapper .columns h1 a {
