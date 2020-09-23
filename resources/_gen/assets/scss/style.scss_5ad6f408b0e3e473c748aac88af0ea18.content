@@ -7362,6 +7362,30 @@ footer {
   footer nav {
     float: right;
     margin: 1rem 0 0; }
+  footer .footer-cncf {
+    color: #1128A9;
+    font-weight: 600;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.333rem;
+    padding-right: 5vw;
+    margin: 1em 0 1.5em; }
+    footer .footer-cncf a {
+      font-size: 1.425rem;
+      letter-spacing: 0.035em;
+      color: #1128A9; }
+    footer .footer-cncf img {
+      max-width: 20vw; }
+  footer .footer-legal {
+    margin: 0;
+    font-size: 1rem; }
+  footer .navbar-menu a.navbar-item {
+    margin: 0.25rem 0.75rem 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid #e0ebf8; }
+    footer .navbar-menu a.navbar-item:hover {
+      border-bottom-color: #58F4CC; }
 
 @media screen and (max-width: 1087px) {
   body {
@@ -7459,6 +7483,8 @@ footer {
       font-size: 2rem;
       padding-right: 5%; }
   .footer {
-    padding-bottom: 2rem; } }
+    padding-bottom: 2rem; }
+    .footer .footer-cncf img {
+      min-width: 50vw; } }
 
 /*# sourceMappingURL=style.css.map */
