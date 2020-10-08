@@ -17,4 +17,4 @@ As for what comes next for OSM, the community is hard at work fully implementing
 
 If you’re interested in learning more about OSM, check out the initial [launch blog](https://openservicemesh.io/blog/introducing-open-service-mesh/). You can also check out the communication [channels](https://openservicemesh.io/) or the [Github repo](https://github.com/openservicemesh/osm) to familiarize yourself with the project. 
 
-We will be holding our first community meeting starting October 13th, 2020 at 1:30pm-2pm EDT / 10:30am-11am PDT. More information to come for the meeting details for joining soon. We look forward to working with you building OSM in the community. 
+We will be holding our monthly community meeting starting October 13th, 2020 at 1:30pm-2pm EDT / 10:30am-11am PDT. More information is available, including details for joining, in the [OSM community resources](https://github.com/openservicemesh/osm/#community). We look forward to working with you building OSM in the community.
