@@ -25,7 +25,7 @@ Let the code teach you everything you need to know about the project. Pick a cod
 ### :wrench:  Start small
 Find a typo or a sentence that makes no sense to you in our [OSM docs](https://docs.openservicemesh.io/), and go fix it in the [OSM docs repo on GitHub](https://github.com/openservicemesh/osm-docs). Getting your first contribution merged helps to get over that initial obstacle of feeling like a newcomer to the project. If it feels intimidating, here is your reminder that we appreciate all improvements, from typo fixes to entire refactors - no PR is too small, and it will feel great when your pull request is merged and you show up as a contributor! If you find a bug you don't know how to address, [open an issue](https://github.com/openservicemesh/osm/issues/new/choose) and we will take a look.
 
-### <img src="/images/octocat.png" height="24" width="24"> Good first issues
+### {{< figure src="/images/octocat.png#floatleft" width="24" >}}  Good first issues
 Look around in the [good first issue list](https://github.com/openservicemesh/osm/contribute); these are tasks specifically tagged by maintainers to help new contributors find a good entry point into the project. Find one that isn’t assigned to someone already, leave a comment that you’re working on it, try to address it and open a PR to get reviews. Maintainers are happy to help you and ready to give you feedback. If starting with a PR seems daunting, reach out to us on the CNCF Slack (#openservicemesh) to get help in a more private forum.
 
 

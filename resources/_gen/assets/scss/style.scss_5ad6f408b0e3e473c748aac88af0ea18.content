@@ -7263,7 +7263,8 @@ body li {
       font-size: 1.33rem;
       margin-top: 3rem; }
     .blog-wrapper .columns .post-view h3 {
-      font-weight: bold; }
+      font-weight: bold;
+      margin: 0.667em 0 -0.725rem; }
     .blog-wrapper .columns .post-view p {
       line-height: 1.636;
       color: #575963; }
@@ -7374,6 +7375,18 @@ body li {
 .blog-wrapper.blog-single img {
   margin: 1.5rem 0 4.5rem;
   max-width: 100%; }
+  .blog-wrapper.blog-single img[src$='#center'] {
+    float: none;
+    max-width: auto;
+    margin: 0 auto; }
+  .blog-wrapper.blog-single img[src$='#floatleft'] {
+    float: left;
+    max-width: auto;
+    margin: 0 1rem 0 0; }
+  .blog-wrapper.blog-single img[src$='#floatright'] {
+    float: right;
+    max-width: auto;
+    margin: 0 0 0 1rem; }
 
 .blog-wrapper.blog-single code {
   font-size: 0.95rem;
