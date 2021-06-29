@@ -2,7 +2,7 @@ baseURL: https://openservicemesh.io/
 languageCode: en-us
 title: Open Service Mesh
 theme: clean-landing
-
+enableEmoji: true
 disableKinds:
  -taxonomy
  -taxonomyTerm
