@@ -38,5 +38,4 @@ Look around in the [good first issue list](https://github.com/openservicemesh/os
 * [Navigating the service mesh ecosystem](https://www.cncf.io/online-programs/navigating-the-service-mesh-ecosystem/) – a talk by Lachlan Evenson that explains some key service mesh concepts through the lenses of SMI & OSM.
 * [OSM Contributor Ladder](https://github.com/openservicemesh/osm/blob/main/CONTRIBUTOR_LADDER.md) – an outline of the different contributor roles in the project and how to move up the ladder in responsibilities.
 
-<li>We’re happy you’re here and excited to learn about your ideas. See you [in the community and on GitHub](https://github.com/openservicemesh/osm#community)!</li>
-<ul>
+We’re happy you’re here and excited to learn about your ideas. See you [in the community and on GitHub](https://github.com/openservicemesh/osm#community)!
