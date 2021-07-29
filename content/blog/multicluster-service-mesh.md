@@ -4,7 +4,7 @@ slug: "multicluster-service-mesh"
 authorname: "Annie Wang"
 author: "@annieee_wang"
 authorlink: "https://twitter.com/annieee_wang"
-date: "2021-07-28T08:00:00-07:00"
+date: "2021-07-29T08:00:00-07:00"
 ---
 
 
