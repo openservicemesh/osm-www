@@ -1,6 +1,6 @@
 ---
-title: "Announcing Stable OSM"
-slug: "announcing-stable-osm"
+title: "Announcing OSM v1.0.0 Release Candidate"
+slug: "announcing-osm-v1-release-candidate"
 authorname: "OSM maintainers"
 author: "@openservicemesh"
 authorlink: "https://twitter.com/openservicemesh"
