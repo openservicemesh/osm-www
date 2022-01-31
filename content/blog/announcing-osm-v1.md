@@ -1,13 +1,11 @@
 ---
 title: "Announcing OSM v1.0.0"
 slug: "announcing-osm-v1"
-authorname: "Phill Gibson & Jon Huhn"
+authorname: "@phillipgibson & @nojnhuh"
 author: "@openservicemesh"
 authorlink: "https://twitter.com/openservicemesh"
 date: "2022-01-31T08:00:00-15:00"
 ---
-
-@phillipgibson & @nojnhuh
 
 OSM's contributors have been hard at work over the past several months preparing for the v1.0.0 release. Today, the OSM team proudly announces the release of version 1.0.0. Thanks to the community for helping drive the features they want to see in a service mesh and heightening the expectation for OSM to provide enterprise features and functionality.
 
