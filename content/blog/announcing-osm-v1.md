@@ -23,7 +23,7 @@ While the primary focus has been on testing, fixing bugs, and other stability im
 The `osm` CLI has also seen several improvements since the last release.
 
 - The `osm support bug-report` command that gathers logs and other information helpful for debugging can now collect logs from OSM's control plane in addition to Pods within the mesh.
-- For users managing OSM's lifecycle without Helm, a new `osm uninstall cluster-wide-resources` command cleans up CustomResourceDefinitions, webhook configurations, and resources created by the control plane to streamline uninstallation.
+- For users managing OSM's lifecycle without Helm, the `osm install` command now supports optionally cleaning up CustomResourceDefinitions, webhook configurations, and resources created by the control plane to streamline uninstallation.
 - The `osm version` command will now display the version of OSM installed on your cluster alongside the CLI's version.
 
 We’re truly excited about the course of the OSM project. For those that are new to the project, please visit our [OSM docs website](https://docs.openservicemesh.io) to get started and you can also download the latest version from [the OSM GitHub releases page](https://github.com/openservicemesh/osm/releases). We look forward to hearing from you on our [OSM GitHub repo](https://github.com/openservicemesh/osm/issues).
