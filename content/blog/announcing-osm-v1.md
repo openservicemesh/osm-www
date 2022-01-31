@@ -1,7 +1,7 @@
 ---
 title: "Announcing OSM v1.0.0"
 slug: "announcing-osm-v1"
-authorname: "@phillipgibson & @nojnhuh"
+authorname: "Phillip Gibson & Jon Huhn"
 author: "@openservicemesh"
 authorlink: "https://twitter.com/openservicemesh"
 date: "2022-01-31T08:00:00-15:00"
