@@ -40,10 +40,10 @@ THUR OCT 27: 10:30 – 14:30 ET
 
 FRI OCT 28: 10:30 – 13:00 ET
 
-LOCATION: on the backside of the Open Policy Agent (OPA) booth, near the Cloud Native Buildpacks/Tinkerbell/Istio booths
+LOCATION: on the opposite side of the Open Policy Agent (OPA) booth, near the Cloud Native Buildpacks/Tinkerbell/Istio booths
 
-OSM maintainers [Phill Gibson](https://twitter.com/phillipgibson), [Keith Mattix](https://twitter.com/keithmattix), and [Jackie Elliot](https://twitter.com/jcelliott17) will be hanging out at the OMS project booth the first half of each day. The project would love to learn from the community how OSM is being used, what pain points exists, and what users are looking for in the future. Help us help you by sharing your thoughts in our [OSM User Survey](https://forms.office.com/r/WCDvxK6WJ1), even if you're not able to drop by the booth. 
+OSM maintainers [Phill Gibson](https://twitter.com/phillipgibson), [Keith Mattix](https://twitter.com/keithmattix), and [Jackie Elliot](https://twitter.com/jcelliott17) will be hanging out at the OSM project booth the first half of each day. The project would love to learn from the community how OSM is being used, what pain points exists, and what users are looking for in the future. Help us help you by sharing your thoughts in our [OSM User Survey](https://forms.office.com/r/WCDvxK6WJ1), even if you're not able to drop by the booth. 
 
-Now for the fun part – the OSM booth will be giving away new Open Service Mesh stickers and custom OSM + Carhartt wool socks to warm while in Detroit!
+Now for the fun part – the OSM booth will be giving away new Open Service Mesh stickers and custom OSM + Carhartt wool socks to stay warm while in Detroit!
 
 With that, we'll see the OSM community soon in-person! 
