@@ -1,15 +1,32 @@
-{{- $navbar         := .Site.Params.navbar }}
-
-<nav class="navbar no-shadow is-hidden-touch" role="navigation" aria-label="main navigation">
+{{- $navbar := .Site.Params.navbar }}
+<style>
+  header {
+    padding: 40px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 40px;
+  }
+</style>
+<header>
+  <h1>
+    The <b>Open Service Mesh</b> project is
+    <a href="https://www.cncf.io/archived-projects">archived</a>.
+    <a href="https://openservicemesh.io/blog/osm-project-update/">Learn more</a
+    >.
+  </h1>
+</header>
+<nav
+  class="navbar no-shadow is-hidden-touch"
+  role="navigation"
+  aria-label="main navigation"
+>
   <div class="container">
     <div id="topNav" class="navbar-menu">
       <div class="navbar-start">
-        {{- range $navbar }}
-        {{- if .sublinks }}
+        {{- range $navbar }} {{- if .sublinks }}
         <div class="navbar-item has-dropdown is-hoverable has-text-left">
-          <a class="navbar-link" href=".url">
-            {{ .title }}
-          </a>
+          <a class="navbar-link" href=".url"> {{ .title }} </a>
         </div>
         {{- else if .button }}
         <a href="{{ .url }}" class="navbar-item">
@@ -18,44 +35,49 @@
           </span>
         </a>
         {{- else }}
-        <a href="{{ .url }}" class="navbar-item is-secondary">
-          {{ .title }}
-        </a>
-        {{- end }}
-        {{- end }}
+        <a href="{{ .url }}" class="navbar-item is-secondary"> {{ .title }} </a>
+        {{- end }} {{- end }}
       </div>
 
-      <a class="github-button" href="https://github.com/openservicemesh/osm" data-icon="octicon-eye" aria-label="Watch openservicemesh/osm on GitHub">Watch</a>
+      <a
+        class="github-button"
+        href="https://github.com/openservicemesh/osm"
+        data-icon="octicon-eye"
+        aria-label="Watch openservicemesh/osm on GitHub"
+        >Watch</a
+      >
 
-      <a class="github-button" href="https://github.com/openservicemesh/osm" data-icon="octicon-star" aria-label="Star openservicemesh/osm on GitHub">Star</a>
+      <a
+        class="github-button"
+        href="https://github.com/openservicemesh/osm"
+        data-icon="octicon-star"
+        aria-label="Star openservicemesh/osm on GitHub"
+        >Star</a
+      >
     </div>
   </div>
 </nav>
 
 <nav class="navbar navbar-mobile is-hidden-desktop">
-
   <a href="/">
-    <img src="{{ .Site.BaseURL }}images/osm-logo-stacked.svg" alt="Open Service Mesh" />
+    <img
+      src="{{ .Site.BaseURL }}images/osm-logo-stacked.svg"
+      alt="Open Service Mesh"
+    />
   </a>
   <div>
-  {{- range $navbar }}
-  {{- if .sublinks }}
-  <div class="navbar-item has-dropdown is-hoverable has-text-left">
-    <a class="navbar-link" href=".url">
-      {{ .title }}
+    {{- range $navbar }} {{- if .sublinks }}
+    <div class="navbar-item has-dropdown is-hoverable has-text-left">
+      <a class="navbar-link" href=".url"> {{ .title }} </a>
+    </div>
+    {{- else if .button }}
+    <a href="{{ .url }}" class="navbar-item">
+      <span class="button signup-button rounded secondary-btn raised">
+        {{ .title }}
+      </span>
     </a>
-  </div>
-  {{- else if .button }}
-  <a href="{{ .url }}" class="navbar-item">
-    <span class="button signup-button rounded secondary-btn raised">
-      {{ .title }}
-    </span>
-  </a>
-  {{- else }}
-  <a href="{{ .url }}" class="navbar-item is-secondary">
-    {{ .title }}
-  </a>
-  {{- end }}
-  {{- end }}
+    {{- else }}
+    <a href="{{ .url }}" class="navbar-item is-secondary"> {{ .title }} </a>
+    {{- end }} {{- end }}
   </div>
 </nav>
